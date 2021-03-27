@@ -1,0 +1,149 @@
+C:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module loadOnlyByte
+
+Top level modules:
+	loadOnlyByte
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/iord.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/iord.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module iord
+
+Top level modules:
+	iord
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/setSize.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/setSize.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module setSize
+
+Top level modules:
+	setSize
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftSrcA
+
+Top level modules:
+	shiftSrcA
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/concat.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/concat.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module concat
+
+Top level modules:
+	concat
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/branchMux.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/branchMux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module branchMux
+
+Top level modules:
+	branchMux
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module aluSrcA
+
+Top level modules:
+	aluSrcA
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/pcSource.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/pcSource.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pcSource
+
+Top level modules:
+	pcSource
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftLeft2_2
+
+Top level modules:
+	shiftLeft2_2
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/muxLo.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/muxLo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxLo
+
+Top level modules:
+	muxLo
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/memToReg.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/memToReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memToReg
+
+Top level modules:
+	memToReg
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftLeft16
+
+Top level modules:
+	shiftLeft16
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftSrcB
+
+Top level modules:
+	shiftSrcB
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signExtend16to32
+
+Top level modules:
+	signExtend16to32
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv {2 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module unidadeControle
+** Warning: C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv(448): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	unidadeControle
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/regDST.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/regDST.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regDST
+
+Top level modules:
+	regDST
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signExtend1to32
+
+Top level modules:
+	signExtend1to32
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/loadSize.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/loadSize.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module loadSize
+
+Top level modules:
+	loadSize
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/muxHi.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/muxHi.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxHi
+
+Top level modules:
+	muxHi
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module aluSrcB
+
+Top level modules:
+	aluSrcB
+
+} {} {}} C:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv {1 {vlog -work work -sv -stats=none C:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xchgMux
+
+Top level modules:
+	xchgMux
+
+} {} {}}

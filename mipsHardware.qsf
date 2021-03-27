@@ -1,0 +1,99 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+# Date created = 15:38:22  March 08, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		mipsHardware_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE EP2S15F672I4
+set_global_assignment -name TOP_LEVEL_ENTITY schemeHard
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:38:22  OCTOBER 09, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name LL_ROOT_REGION ON -entity mipsHardware -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity mipsHardware -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity aluSrcB -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity aluSrcB -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity aluSrcB -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity aluSrcA -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity aluSrcA -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity aluSrcA -section_id Top
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
+set_global_assignment -name MIF_FILE instrucoes.mif
+set_global_assignment -name VHDL_FILE Registrador.vhd
+set_global_assignment -name VHDL_FILE Banco_reg.vhd
+set_global_assignment -name VHDL_FILE Instr_Reg.vhd
+set_global_assignment -name VHDL_FILE Memoria.vhd
+set_global_assignment -name VHDL_FILE ula32.vhd
+set_global_assignment -name VHDL_FILE RegDesloc.vhd
+set_global_assignment -name BDF_FILE schemeHard.bdf
+set_global_assignment -name SYSTEMVERILOG_FILE aluSrcA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE aluSrcB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE branchMux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE concat.sv
+set_global_assignment -name SYSTEMVERILOG_FILE iord.sv
+set_global_assignment -name SYSTEMVERILOG_FILE regDST.sv
+set_global_assignment -name SYSTEMVERILOG_FILE setSize.sv
+set_global_assignment -name SYSTEMVERILOG_FILE loadSize.sv
+set_global_assignment -name SYSTEMVERILOG_FILE memToReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE signExtend16to32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE unidadeControle.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcSource.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft2_2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE signExtend1to32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft16.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE div.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mult.sv
+set_global_assignment -name SYSTEMVERILOG_FILE loadOnlyByte.sv
+set_global_assignment -name SYSTEMVERILOG_FILE muxHi.sv
+set_global_assignment -name SYSTEMVERILOG_FILE muxLo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE xchgMux.sv
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name ENABLE_ADVANCED_IO_TIMING ON
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

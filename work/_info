@@ -1,0 +1,605 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+valuSrcA
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1616595402
+!i10b 1
+!s100 ogM:n1`BCK9gLCKf6oF]R2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAzdF0eKz8TiXbJXfhJb012
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/pedro/Desktop/CPUQuartus
+Z4 w1572009411
+8C:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv
+FC:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv
+!i122 4
+Z5 L0 1 21
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1616595402.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/aluSrcA.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+nalu@src@a
+valuSrcB
+R0
+!s110 1616595631
+!i10b 1
+!s100 AmNcRLbPfOSBf4_k:UId60
+R1
+I0K_FIAEPk;Ul[_MhWZa9:3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv
+FC:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv
+!i122 22
+L0 1 27
+R6
+r1
+!s85 0
+31
+!s108 1616595630.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/aluSrcB.sv|
+!i113 1
+R7
+R8
+nalu@src@b
+vbranchMux
+R0
+!s110 1616595415
+!i10b 1
+!s100 UV]lfbg;4=GFcQ7PgKd?_1
+R1
+IEz<2UPU?L_UM>=^7A;MIY3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/branchMux.sv
+FC:/Users/pedro/Desktop/CPUQuartus/branchMux.sv
+!i122 7
+L0 1 41
+R6
+r1
+!s85 0
+31
+!s108 1616595415.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/branchMux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/branchMux.sv|
+!i113 1
+R7
+R8
+nbranch@mux
+vconcat
+R0
+!s110 1616595412
+!i10b 1
+!s100 6==RA8W6=E?FLV9KJ@DoF3
+R1
+I3=UjL`U]SW<LGCeNP`h>J0
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/concat.sv
+FC:/Users/pedro/Desktop/CPUQuartus/concat.sv
+!i122 6
+L0 1 25
+R6
+r1
+!s85 0
+31
+!s108 1616595412.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/concat.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/concat.sv|
+!i113 1
+R7
+R8
+vdiv
+R0
+!s110 1616595394
+!i10b 1
+!s100 I9OchlJE6Fa`LMgXX48S>1
+R1
+IDQB7lYdQcO5n6:7U392Tf0
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/div.sv
+FC:/Users/pedro/Desktop/CPUQuartus/div.sv
+!i122 3
+L0 1 117
+R6
+r1
+!s85 0
+31
+!s108 1616595394.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/div.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/div.sv|
+!i113 1
+R7
+R8
+viord
+R0
+!s110 1616595530
+!i10b 1
+!s100 nRYR06<4P[1:XJdaAE5;V1
+R1
+I@S^e8]oh31;[Q10>]3PUC3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/iord.sv
+FC:/Users/pedro/Desktop/CPUQuartus/iord.sv
+!i122 11
+L0 1 24
+R6
+r1
+!s85 0
+31
+!s108 1616595530.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/iord.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/iord.sv|
+!i113 1
+R7
+R8
+vloadOnlyByte
+R0
+!s110 1616595525
+!i10b 1
+!s100 zAWi5Y[Z3bdQ]@nf8Aikg0
+R1
+I31^UAHcj0TJZ4_maQK3=<1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv
+FC:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv
+!i122 10
+L0 1 9
+R6
+r1
+!s85 0
+31
+!s108 1616595525.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/loadOnlyByte.sv|
+!i113 1
+R7
+R8
+nload@only@byte
+vloadSize
+R0
+!s110 1616595624
+!i10b 1
+!s100 ;bDZePDhF?F:HVnj[mZYH2
+R1
+IB]>I;^ia]nN^X:Hoh^BOS1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/loadSize.sv
+FC:/Users/pedro/Desktop/CPUQuartus/loadSize.sv
+!i122 20
+L0 1 17
+R6
+r1
+!s85 0
+31
+!s108 1616595623.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/loadSize.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/loadSize.sv|
+!i113 1
+R7
+R8
+nload@size
+vmemToReg
+R0
+!s110 1616595569
+!i10b 1
+!s100 n4_bmnemjeEEa65LlaUzF0
+R1
+ITJ[k7ELOS6iPMH[D@MEVm3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/memToReg.sv
+FC:/Users/pedro/Desktop/CPUQuartus/memToReg.sv
+!i122 16
+L0 1 34
+R6
+r1
+!s85 0
+31
+!s108 1616595568.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/memToReg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/memToReg.sv|
+!i113 1
+R7
+R8
+nmem@to@reg
+vmult
+R0
+!s110 1616595408
+!i10b 1
+!s100 :M6EBZNUI7L<1@Jbo_UVI3
+R1
+InZNcO<dTNQljb<Odii^gH2
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/mult.sv
+FC:/Users/pedro/Desktop/CPUQuartus/mult.sv
+!i122 5
+L0 1 80
+R6
+r1
+!s85 0
+31
+!s108 1616595407.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/mult.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/mult.sv|
+!i113 1
+R7
+R8
+vmuxHi
+R0
+!s110 1616595581
+!i10b 1
+!s100 DmfkLe_@zlbEUI_X@Bi883
+R1
+I@EVh7S5GA<]0Q0RQo??Q<1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/muxHi.sv
+FC:/Users/pedro/Desktop/CPUQuartus/muxHi.sv
+!i122 19
+Z9 L0 1 18
+R6
+r1
+!s85 0
+31
+!s108 1616595581.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/muxHi.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/muxHi.sv|
+!i113 1
+R7
+R8
+nmux@hi
+vmuxLo
+R0
+!s110 1616595359
+!i10b 1
+!s100 ?mH2?=4[oiTP`Q:B3UgY]3
+R1
+IV]dAWcBS3ACe<nZ:Ugzz?1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/muxLo.sv
+FC:/Users/pedro/Desktop/CPUQuartus/muxLo.sv
+!i122 0
+R9
+R6
+r1
+!s85 0
+31
+!s108 1616595359.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/muxLo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/muxLo.sv|
+!i113 1
+R7
+R8
+nmux@lo
+vpcSource
+R0
+!s110 1616595368
+!i10b 1
+!s100 Gl5FRBc@_U=>HkYbQjK0T2
+R1
+IOg6E:a9Ao0KgJ6=<BGX6h3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/pcSource.sv
+FC:/Users/pedro/Desktop/CPUQuartus/pcSource.sv
+!i122 1
+L0 1 30
+R6
+r1
+!s85 0
+31
+!s108 1616595368.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/pcSource.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/pcSource.sv|
+!i113 1
+R7
+R8
+npc@source
+vregDST
+R0
+!s110 1616595573
+!i10b 1
+!s100 7[aFNo5f0YMAOM[ToCE4K1
+R1
+IK<ZIoROZgz[R_AaK5bCWl0
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/regDST.sv
+FC:/Users/pedro/Desktop/CPUQuartus/regDST.sv
+!i122 17
+R5
+R6
+r1
+!s85 0
+31
+!s108 1616595573.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/regDST.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/regDST.sv|
+!i113 1
+R7
+R8
+nreg@d@s@t
+vsetSize
+R0
+!s110 1616595514
+!i10b 1
+!s100 8>>PNCN4Z6EbN?G^_;:bl1
+R1
+I6IOEh^1TkGSbI56jn8[bK2
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/setSize.sv
+FC:/Users/pedro/Desktop/CPUQuartus/setSize.sv
+!i122 8
+L0 1 20
+R6
+r1
+!s85 0
+31
+!s108 1616595514.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/setSize.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/setSize.sv|
+!i113 1
+R7
+R8
+nset@size
+vshiftLeft16
+R0
+!s110 1616595562
+!i10b 1
+!s100 2W;F=DT<5ENU0A8[V^]<81
+R1
+IDkiE37NPFQZHDIzo>kPQ?1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv
+FC:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv
+!i122 15
+Z10 L0 1 8
+R6
+r1
+!s85 0
+31
+!s108 1616595562.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/shiftLeft16.sv|
+!i113 1
+R7
+R8
+nshift@left16
+vshiftLeft2_2
+R0
+!s110 1616595385
+!i10b 1
+!s100 nPbOC;`=JcNU0<?dLP=C13
+R1
+INj5Wj`FB;IJ`GT_]P3L8I3
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv
+FC:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv
+!i122 2
+R10
+R6
+r1
+!s85 0
+31
+!s108 1616595384.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/shiftLeft2_2.sv|
+!i113 1
+R7
+R8
+nshift@left2_2
+vshiftSrcA
+R0
+!s110 1616595521
+!i10b 1
+!s100 A9HQHEbm]lTC3FFY6=0dd1
+R1
+I`N8o>3CCOa9;?gV35?DT90
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv
+FC:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv
+!i122 9
+R9
+R6
+r1
+!s85 0
+31
+!s108 1616595521.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/shiftSrcA.sv|
+!i113 1
+R7
+R8
+nshift@src@a
+vshiftSrcB
+R0
+!s110 1616595557
+!i10b 1
+!s100 mD3]2NlUOIPfZDP>L<0P<0
+R1
+I[F2HS;VQSE24D:KH]RA`N0
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv
+FC:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv
+!i122 14
+R9
+R6
+r1
+!s85 0
+31
+!s108 1616595556.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/shiftSrcB.sv|
+!i113 1
+R7
+R8
+nshift@src@b
+vsignExtend16to32
+R0
+!s110 1616595553
+!i10b 1
+!s100 zQoK5OQLz`U[?CGTgAf0Y3
+R1
+IYRVP`fFNkV`Yz9TSU_K?o1
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv
+FC:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv
+!i122 13
+Z11 L0 1 11
+R6
+r1
+!s85 0
+31
+!s108 1616595553.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/signExtend16to32.sv|
+!i113 1
+R7
+R8
+nsign@extend16to32
+vsignExtend1to32
+R0
+!s110 1616595579
+!i10b 1
+!s100 JTJ@R5UX@lUFnm3nX1Elm0
+R1
+IFSJO52Lb3^@C8d40Xe[Ma2
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv
+FC:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv
+!i122 18
+R11
+R6
+r1
+!s85 0
+31
+!s108 1616595579.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/signExtend1to32.sv|
+!i113 1
+R7
+R8
+nsign@extend1to32
+vunidadeControle
+R0
+!s110 1616595536
+!i10b 1
+!s100 Z=AQ?1z>oV4o[^lLi[O>M1
+R1
+INJCE:W_?>z>24omD6DEEg3
+R2
+S1
+R3
+w1616525778
+8C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv
+FC:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv
+!i122 12
+L0 1 3062
+R6
+r1
+!s85 0
+31
+!s108 1616595536.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/unidadeControle.sv|
+!i113 1
+R7
+R8
+nunidade@controle
+vxchgMux
+R0
+!s110 1616595628
+!i10b 1
+!s100 _fDf@A;haEZ`Jk>P@I><80
+R1
+IT:8iJW<Fc8V5H0[=PLDf81
+R2
+S1
+R3
+R4
+8C:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv
+FC:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv
+!i122 21
+R9
+R6
+r1
+!s85 0
+31
+!s108 1616595628.000000
+!s107 C:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedro/Desktop/CPUQuartus/xchgMux.sv|
+!i113 1
+R7
+R8
+nxchg@mux

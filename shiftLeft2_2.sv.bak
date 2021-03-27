@@ -1,0 +1,8 @@
+module shiftLeft2_2(
+input logic [15:0] inst15_0,
+output logic [31:0] signExtend16to32Out
+);
+
+always @ (*) signExtend16to32Out = $signed(inst15_0);
+	
+endmodule
